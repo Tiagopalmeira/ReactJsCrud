@@ -1,14 +1,14 @@
-﻿\# CRUD de Munícipes
+﻿# CRUD de Munícipes
 
 Este projeto é um exemplo de aplicação CRUD (Create, Read, Update, Delete) para gerenciar registros de munícipes. A aplicação é construída utilizando Node.js no backend, React no frontend, e MySQL como banco de dados.
 
-\## Requisitos
+## Requisitos
 
 - Node.js (v14 ou superior)
 - MySQL (v5.7 ou superior)
 - npm (v6 ou superior) ou yarn (v1 ou superior)
 
-\## Estrutura do Projeto
+## Estrutura do Projeto
 
 ├── backend
 
@@ -42,13 +42,13 @@ Este projeto é um exemplo de aplicação CRUD (Create, Read, Update, Delete) pa
 
 │   └── index.js
 
-\## Banco de Dados
+## Banco de Dados
 
-\### Criação do Banco de Dados
+### Criação do Banco de Dados
 
 Execute o script SQL fornecido para criar o banco de dados e a tabela.
 
-\### Tipos de Dados
+### Tipos de Dados
 
 - `id`: INT, auto-incrementado e chave primária.
 - `nome`: VARCHAR(255), não nulo.
@@ -60,9 +60,9 @@ Execute o script SQL fornecido para criar o banco de dados e a tabela.
 - `numCasa`: VARCHAR(10).
 - `bairro`: VARCHAR(100).
 
-\## Configuração do Projeto
+## Configuração do Projeto
 
-\### Backend
+### Backend
 
 1. Clone este repositório.
 1. Navegue até a pasta `src/backend`.
@@ -70,34 +70,34 @@ Execute o script SQL fornecido para criar o banco de dados e a tabela.
 1. Configure a conexão com o banco de dados no arquivo `db.js`.
 1. Inicie o servidor backend com `node RotasPessoas.js`.
 
-\### Frontend
+### Frontend
 
 1. Navegue até a pasta `src/frontend`.
 1. Instale as dependências do frontend com `npm install`.
 1. Inicie o servidor de desenvolvimento do frontend com `npm start`.
 
-\## Uso
+## Uso
 
-\### Inserir (Create)
+### Inserir (Create)
 
 Utilize o componente `FormCadastro` para inserir novos registros de munícipes.
 
-\### Ler (Read)
+### Ler (Read)
 
 Utilize o componente `FormLeitura` para ler todos os registros de munícipes.
 
-\### Atualizar (Update)
+### Atualizar (Update)
 
 Utilize o componente `FormAtualiza` para atualizar os registros de munícipes.
 
-\### Deletar (Delete)
+### Deletar (Delete)
 
 Utilize o componente `FormDeleta` para deletar registros de munícipes.
 
-\## Estilo
+## Estilo
 
 O estilo da aplicação é definido no arquivo `App.css`. A aplicação é responsiva e os botões são estilizados de forma a serem utilizáveis em diferentes tamanhos de tela.
 
-\## Conclusão
+## Conclusão
 
 Este projeto demonstra um CRUD básico utilizando Node.js, React e MySQL. Ele pode ser expandido e personalizado conforme necessário. Se tiver alguma dúvida ou encontrar problemas, sinta-se à vontade para abrir uma issue ou enviar um pull request.
